@@ -1,0 +1,154 @@
+{
+	"info": {
+		"_postman_id": "653e5498-4aba-4a6b-b3c0-8a1dd2e22abc",
+		"name": "flowable-javaee7",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "processEngine/name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8080/flowable-javaee7/rest/processEngine/name",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"flowable-javaee7",
+						"rest",
+						"processEngine",
+						"name"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "processEngine/processDefinitions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8080/flowable-javaee7/rest/processEngine/processDefinitions",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"flowable-javaee7",
+						"rest",
+						"processEngine",
+						"processDefinitions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "processEngine/processes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8080/flowable-javaee7/rest/processEngine/processes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"flowable-javaee7",
+						"rest",
+						"processEngine",
+						"processes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "processEngine/processes",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8080/flowable-javaee7/rest/processEngine/processes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"flowable-javaee7",
+						"rest",
+						"processEngine",
+						"processes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "processEngine/tasks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8080/flowable-javaee7/rest/processEngine/tasks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"flowable-javaee7",
+						"rest",
+						"processEngine",
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "processEngine/tasks",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8080/flowable-javaee7/rest/processEngine/tasks/40028?action=complete",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"flowable-javaee7",
+						"rest",
+						"processEngine",
+						"tasks",
+						"40028"
+					],
+					"query": [
+						{
+							"key": "action",
+							"value": "complete"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
